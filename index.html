@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Application project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div id="box">
+        <h2 id="questionBox">What is your name?</h2>
+        <div class="row">
+          <input
+            type="radio"
+            class="options"
+            id="option1"
+            value="a"
+            name="option"
+          />
+          <label for="option1"> Question 1</label>
+        </div>
+        <div class="row">
+          <input
+            type="radio"
+            class="options"
+            id="option2"
+            value="b"
+            name="option"
+          />
+          <label for="option2"> Question 2</label>
+        </div>
+        <div class="row">
+          <input
+            type="radio"
+            class="options"
+            id="option3"
+            value="c"
+            name="option"
+          />
+          <label for="option3"> Question 3</label>
+        </div>
+        <div class="row">
+          <input
+            type="radio"
+            class="options"
+            id="option4"
+            value="d"
+            name="option"
+          />
+          <label for="option4"> Question 4</label>
+        </div>
+        <div class="btn-container">
+          <button class="btn" onclick="submitQuiz()">submit</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
